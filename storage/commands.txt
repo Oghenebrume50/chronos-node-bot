@@ -1,0 +1,27 @@
+Commands: 
+
+>help Chronos- display all the Commands
+
+N:B double word names should be linked with hyphens; like this: server-name 
+
+>remind me in [timeValue][timeUnit] (reminder message) - 
+    sends a reminder to the author after the specified duration.
+        e.g: >remind me in 20mins (Nodejs Webinar starts by 11.30am)
+
+>remind us in [timeValue][timeUnit] (reminder message) - 
+    sends a reminder to the current channel after the specified duration.
+        e.g: >remind us in 20secs (live session has started on Instagram)
+
+>remind [@serverName] [@channelName] in [timeValue][timeUnit] (remind message) - 
+    sends a reminder to the channel in the specified server after the specified duration.
+        e.g: >remind @bothome @general in 20mins (Nodejs Webinar starts by 11.30am)
+
+>remind [@userName] in [timeValue][timeUnit] (remind message) - 
+    sends a reminder to the specified users inbox after the specified duration.
+    e.g: >remind @oghenebrume in 1hr (It's time to play Fifa 19)
+
+    timeUnit = sec or secs
+               min or mins
+               hr  or hrs 
+
+               this are the unit currently supported by the bot 
